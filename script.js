@@ -15,6 +15,6 @@ window.onload = function() {
     let rdm5 = Math.floor(Math.random() * where.length);
 
 
-    document.querySelector("#excuse").innerHTML = first + adj[rdm1] + noun[rdm2] + action[rdm3] + possetion[rdm4] + where[rdm5];
+    document.querySelector("#excuse").innerHTML = first + " " + adj[rdm1] + " " + noun[rdm2] + " " + action[rdm3] + " " + possetion[rdm4] + " " + where[rdm5];
 
 };
